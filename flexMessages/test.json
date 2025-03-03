@@ -1,0 +1,174 @@
+{
+    "type": "flex",
+    "altText": "ตรวจสอบสถานะการจอง",
+    "contents": {
+        "type": "bubble",
+        "hero": {
+            "type": "image",
+            "url": "https://i.ibb.co/7y0hH2q/car-example.jpg", // รูปรถปลอม
+            "size": "full",
+            "aspectRatio": "20:13",
+            "aspectMode": "cover"
+        },
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "สถานะการจอง",
+                    "weight": "bold",
+                    "size": "xl",
+                    "align": "center"
+                },
+                {
+                    "type": "separator",
+                    "margin": "md"
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "DisplayName: John Doe",
+                            "weight": "bold",
+                            "size": "md",
+                            "wrap": true
+                        },
+                        {
+                            "type": "text",
+                            "text": "Phone: 080-123-4567",
+                            "size": "sm",
+                            "color": "#666666",
+                            "wrap": true
+                        },
+                        {
+                            "type": "text",
+                            "text": "Car Brand: Toyota Camry",
+                            "size": "md",
+                            "wrap": true
+                        },
+                        {
+                            "type": "text",
+                            "text": "Start Date: 2025-03-01",
+                            "size": "sm",
+                            "color": "#666666",
+                            "wrap": true
+                        },
+                        {
+                            "type": "text",
+                            "text": "End Date: 2025-03-07",
+                            "size": "sm",
+                            "color": "#666666",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "md",
+                    "margin": "lg"
+                }
+            ]
+        },
+        "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "ดูรายละเอียดเพิ่มเติม",
+                        "uri": "https://your-website.com/booking-status"
+                    },
+                    "style": "primary",
+                    "color": "#1DB446"
+                }
+            ]
+        }
+    }
+}
+
+
+"type": "bubble",
+"hero": {
+    "type": "image",
+    "url": "https://i.ibb.co/7y0hH2q/car-example.jpg", // รูปรถปลอม
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+},
+"body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+        {
+            "type": "text",
+            "text": "สถานะการจอง",
+            "weight": "bold",
+            "size": "xl",
+            "align": "center"
+        },
+        {
+            "type": "separator",
+            "margin": "md"
+        },
+        {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "DisplayName: John Doe",
+                    "weight": "bold",
+                    "size": "md",
+                    "wrap": true
+                },
+                {
+                    "type": "text",
+                    "text": "Phone: 080-123-4567",
+                    "size": "sm",
+                    "color": "#666666",
+                    "wrap": true
+                },
+                {
+                    "type": "text",
+                    "text": "Car Brand: Toyota Camry",
+                    "size": "md",
+                    "wrap": true
+                },
+                {
+                    "type": "text",
+                    "text": "Start Date: 2025-03-01",
+                    "size": "sm",
+                    "color": "#666666",
+                    "wrap": true
+                },
+                {
+                    "type": "text",
+                    "text": "End Date: 2025-03-07",
+                    "size": "sm",
+                    "color": "#666666",
+                    "wrap": true
+                }
+            ],
+            "spacing": "md",
+            "margin": "lg"
+        }
+    ]
+},
+"footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+        {
+            "type": "button",
+            "action": {
+                "type": "uri",
+                "label": "ดูรายละเอียดเพิ่มเติม",
+                "uri": "https://your-website.com/booking-status"
+            },
+            "style": "primary",
+            "color": "#1DB446"
+        }
+    ]
+}

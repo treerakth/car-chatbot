@@ -1,0 +1,131 @@
+{
+    "type": "flex",
+    "altText": "เลือกประเภทรถที่ต้องการจอง",
+    "contents": {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "size": "micro",
+                "hero": {
+                    "type": "image",
+                    "url": "https://drive.google.com/uc?id=1MeJfY-XrV-Fxko5pfdVzaJm_a40sATNL",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "320:213"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "รถมอเตอร์ไซค์",
+                            "weight": "bold",
+                            "size": "sm",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "sm",
+                    "paddingAll": "13px"
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "postback",
+                                "label": "จองรถ",
+                                "data": "carType=motorcycle",
+                                "displayText": "รถมอเตอร์ไซค์"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "size": "micro",
+                "hero": {
+                    "type": "image",
+                    "url": "https://drive.google.com/uc?id=1jWm2c-QmoYXcIrpujepTBOfk6J9AJv2o",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "320:213"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "รถยนต์",
+                            "weight": "bold",
+                            "size": "sm",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "sm",
+                    "paddingAll": "13px"
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "postback",
+                                "label": "จองรถ",
+                                "data": "carType=car",
+                                "displayText": "รถยนต์"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "size": "micro",
+                "hero": {
+                    "type": "image",
+                    "url": "https://drive.google.com/uc?id=1N6299KMdqcY6z-kpm1zPHTmXLHgAT9or",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "320:213"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "รถตู้",
+                            "weight": "bold",
+                            "size": "sm"
+                        }
+                    ],
+                    "spacing": "sm",
+                    "paddingAll": "13px"
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "postback",
+                                "label": "จองรถ",
+                                "data": "carType=van",
+                                "displayText": "รถตู้"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

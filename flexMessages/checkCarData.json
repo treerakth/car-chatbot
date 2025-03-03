@@ -1,0 +1,164 @@
+{
+    "type": "flex",
+    "altText": "เลือกประเภทรถที่ต้องการตรวจสอบ",
+    "contents": {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "size": "micro",
+                "hero": {
+                    "type": "image",
+                    "url": "https://i.ibb.co/xd8R5Nj/motorcycle-08.jpg",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "320:213"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "รถมอเตอร์ไซค์",
+                            "weight": "bold",
+                            "size": "sm",
+                            "wrap": true
+                        },
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "รถว่างจำนวน x คัน",
+                                    "size": "12px"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "sm",
+                    "paddingAll": "13px"
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "postback",
+                                "label": "เช็ครถว่าง",
+                                "data": "checkType=checkMotorcycle"
+                            },
+                            "style": "primary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "size": "micro",
+                "hero": {
+                    "type": "image",
+                    "url": "https://i.ibb.co/0pT7GmHS/Toyota-20-620x420-2x.jpg",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "320:213"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "รถยนต์",
+                            "weight": "bold",
+                            "size": "sm",
+                            "wrap": true
+                        },
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "รถว่างจำนวน x คัน",
+                                    "size": "12px"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "sm",
+                    "paddingAll": "13px"
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "postback",
+                                "label": "เช็ครถว่าง",
+                                "data": "checkType=checkCar"
+                            },
+                            "style": "primary"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "size": "micro",
+                "hero": {
+                    "type": "image",
+                    "url": "https://i.ibb.co/fGHLd4jg/crop-1642404778745.jpg",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "320:213"
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "รถตู้",
+                            "weight": "bold",
+                            "size": "sm"
+                        },
+                        {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "text": "รถว่างจำนวน x คัน",
+                                    "size": "12px"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "sm",
+                    "paddingAll": "13px"
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "postback",
+                                "label": "เช็ครถว่าง",
+                                "data": "checkType=checkVan"
+                            },
+                            "style": "primary"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
